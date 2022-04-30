@@ -22,3 +22,10 @@
 .details {
   color: #00b5ff !important;
 }
+
+@media screen and (max-width: 1200px) {
+  .table {
+    width: 170%;
+    margin-top: 2rem;
+  }
+}

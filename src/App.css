@@ -35,3 +35,12 @@ body {
   grid-template-columns: 11rem auto 20rem;
   gap: 10px;
 }
+
+@media screen and (max-width: 1200px) {
+  .App {
+    grid-template-columns: 10% 50% auto;
+  }
+  .App__glass {
+    overflow-y: scroll;
+  }
+}

@@ -6,3 +6,12 @@
 .cards__container {
   width: 100%;
 }
+
+@media screen and (max-width: 1200px) {
+  .cards {
+    flex-direction: column;
+  }
+  .cards__container {
+    height: 9rem;
+  }
+}
