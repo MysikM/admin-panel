@@ -18,7 +18,7 @@ const Sidebar = () => {
             <div className="menu">
                 {
                     sidebarData.map((menuItem, i) => (
-                        <div id={i} className={`menu__item ${selected === i && 'menu__item--active'}`} onClick={() => setSelected(i)}>
+                        <div key={i} className={`menu__item ${selected === i && 'menu__item--active'}`} onClick={() => setSelected(i)}>
                             <menuItem.icon/>
                             <span>{menuItem.heading}</span>
                         </div>

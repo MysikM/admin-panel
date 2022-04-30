@@ -1,0 +1,8 @@
+.cards {
+  display: flex;
+  gap:10px
+}
+
+.cards__container {
+  width: 100%;
+}
