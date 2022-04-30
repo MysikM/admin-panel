@@ -3,7 +3,9 @@ import './App.css'
 function App() {
   return (
     <div className="App">
-       test work
+       <div className="App__glass">
+
+       </div>
     </div>
   );
 }
