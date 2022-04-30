@@ -1,5 +1,6 @@
 import React from 'react';
 import './rightside.css';
+import Updates from "../Updates/Updates";
 
 const RightSide = () => {
     return (
