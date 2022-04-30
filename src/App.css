@@ -37,10 +37,17 @@ body {
 }
 
 @media screen and (max-width: 1200px) {
-  .App {
-    grid-template-columns: 10% 50% auto;
-  }
   .App__glass {
     overflow-y: scroll;
+    grid-template-columns: 10% 50% auto;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .App__glass{
+    grid-template-columns: 1fr;
+  }
+  .App__glass::-webkit-scrollbar {
+    display: none;
   }
 }
